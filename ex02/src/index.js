@@ -10,8 +10,8 @@ function myArrayFunction(arr) {
   var newTemps = [...arr];
   var averageDayTemp = [];
   var average = 0;
-  for (i = 0; i < newTemps.length; i++) {
-    for (j = 0; j < newTemps[i].length; j++) {
+  for (var i = 0; i < newTemps.length; i++) {
+    for (var j = 0; j < newTemps[i].length; j++) {
       average = average + newTemps[i][j];
     }
     averageDayTemp.push(average / newTemps[i].length);

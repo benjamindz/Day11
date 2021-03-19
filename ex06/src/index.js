@@ -3,8 +3,8 @@ function multiplyArrayFunction(myArray) {
   var sum = 0;
   var product = 1;
 
-  for (i = 0; i < myArray.length; i++) {
-    for (j = 0; j < myArray[i].length; j++) {
+  for (var i = 0; i < myArray.length; i++) {
+    for (var j = 0; j < myArray[i].length; j++) {
       sum += myArray[i][j];
       product *= myArray[i][j];
     }

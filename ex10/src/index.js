@@ -1,7 +1,7 @@
 function mySplice(arr1, arr2, n) {
     var newArray = [...arr2];
 
-    for(i = 0; i < arr1.length; i++) {
+    for(var i = 0; i < arr1.length; i++) {
         newArray.splice(n,0,arr1[i]);
     }
     return newArray;

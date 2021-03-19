@@ -2,7 +2,7 @@ function myMutation(arr){
     var firstWord = arr[0];
     var secondWord = arr[1];
 
-    for (i = 0; i < secondWord.length; i++) {
+    for (var i = 0; i < secondWord.length; i++) {
         if(firstWord.toLowerCase().includes(secondWord[i].toLowerCase()) == false)
         return false;
     }
